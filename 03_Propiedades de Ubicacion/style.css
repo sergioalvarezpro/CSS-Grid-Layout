@@ -1,0 +1,55 @@
+/*
+Propiedades de ubicación:
+
+grid-column
+  grid-column-start
+  grid-column-end
+
+grid-row
+  grid-row-start
+  grid-row-end
+
+grid-area
+*/
+
+.contenedor {
+  border: 5px solid #e1bee7;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid-template-rows: 75px 75px 75px;
+  grid-template-areas:
+    "one one one"
+    "two three three"
+    "two three three";
+  place-content: center;
+}
+
+.item {
+  font-size: 2rem;
+}
+
+.item-1 {
+  /*header*/
+  border: 5px solid #f8bbd0;
+  background-color: #ffeeff;
+  /* grid-column-start: 1;
+  grid-column-end: 4; */
+  grid-area: one;
+}
+
+.item-2 {
+  /*Sidebar*/
+  border: 5px solid #e1bee7;
+  background-color: #fff1ff;
+  /* grid-row: 2 / 4; Donde empieza / Donde acaba */
+  grid-area: two;
+}
+
+.item-3 {
+  /*Main*/
+  border: 5px solid #b2ebf2;
+  background-color: #e5ffff;
+  /* grid-area: 2 / 2 / 4 / 4; Fila de inicio / Columna de inicio / Fila final / Columna final*/
+  grid-area: three;
+}

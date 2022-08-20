@@ -1,0 +1,39 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    grid-auto-flow: column;
+    gap: 20px;
+}
+
+.item {
+    position: relative;
+    background-color: #add901;
+}
+
+.item:nth-child(2),
+.item:nth-child(5) {
+    background-color: #71bb05;
+}
+
+.item:nth-child(3),
+.item:nth-child(6) {
+    background-color: #268201;
+}
+
+.item span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #248000;
+}
+
+.item:nth-child(3) span,
+.item:nth-child(6) span {
+    background-color: #0f3800;
+}

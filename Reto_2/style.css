@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background-color: darkgrey;
+}
+
+.contenedor {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-auto-rows: 150px;
+    gap: 35px;
+    background-color: #37631F;
+}
+
+.item {
+    display: grid;
+    place-content: end;
+    background-color: #A7D220;
+}
+
+.item--box {
+    width: 40px;
+    height: 60px;
+    background-color: #64A93E;
+}
+
+.small--box {
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    display: grid;
+    place-self: center;
+    background-color: #1C2E12;
+}
