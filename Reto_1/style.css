@@ -1,3 +1,11 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background-color: darkgrey;
+}
+
 .contenedor {
     display: grid;
     grid-template-columns: 150px 150px;
@@ -29,7 +37,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 4rem;
     font-weight: bold;
-    color: #ffffff;
+    color: darkgrey;
     background-color: #248000;
 }
 
