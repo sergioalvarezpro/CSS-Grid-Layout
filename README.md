@@ -1,4 +1,5 @@
-# Código fuente del curso CSS Grid Layout
+# Curso CSS Grid Básico
+Este repositorio incluye la documentación, retos y proyecto del curso de [CSS Grid Básico](https://platzi.com/cursos/css-grid/) realizado en la plataforma Platzi con la instructora [Estefany Salas](https://platzi.com/profes/estefanycss/).
 
 ## Documentación del curso y ejemplos de código
 
